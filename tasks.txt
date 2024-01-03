@@ -1,0 +1,12 @@
+v1.0.0
+- [ ] Homepage
++ [ ] Welcome area that explains what the software does
++ [ ] Core features
++ [ ] Screenshots
+- [ ] Contact
++ [ ] Give people some way of contact
+- [ ] Partials
++ [ ] Header
++ [ ] Welcome area
++ [ ] Core features
++ [ ] Footer with github and year and some sort of a copyright

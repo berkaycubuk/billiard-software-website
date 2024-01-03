@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title></title>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+				{{with resources.Get "main.css"}}
+				<link rel="stylesheet" href="{{.RelPermalink}}" />
+				{{end}}
+		</head>
+		<body>
+				{{partial "header.html" .}}
+
+				<main class="main">
+						<div class="container">
+								<div class="main-inner">
+										{{block "body" .}}{{end}}
+								</div>
+						</div>
+				</main>
+
+				{{partial "footer.html" .}}
+		</body>
+</html>
